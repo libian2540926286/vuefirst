@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import Users from './components/Users'
 
-Vue.config.productionTip = false //阻止启动生产消息
+Vue.config.productionTip = false // 阻止启动生产消息
+
+/* 全局注册组件 */
+// Vue.component('Users', Users)
 
 /* eslint-disable no-new */
 new Vue({
