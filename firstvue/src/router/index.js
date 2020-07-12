@@ -8,7 +8,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello 李辩+1'
+      name: 'Hello 李辩'
     }
   ]
 })
